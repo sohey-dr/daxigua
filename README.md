@@ -20,7 +20,7 @@
 
 変更されていないソースコード：[https://github.com/liyupi/daxigua/releases/tag/1.0.0](https://github.com/liyupi/daxigua/releases/tag/1.0.0)
 
-🔥 [新上线大西瓜改图工具，改图效率翻倍！](https://daxigua-tools.liyupi.com)
+🔥 [大型スイカのリマップツールを新発売、リマップ効率が2倍に！](https://daxigua-tools.liyupi.com)
 
 ![秀爆朋友圈](./assets/dadaxigua.png)
 
@@ -55,19 +55,19 @@
     serve
     ```
    
-3. 打开浏览器访问 localhost:5000 即可！
+3. ブラウザを開いてlocalhost:5000にアクセスするだけでOK!
 
-#### 已安装 Docker
+#### Dockerはインストールされています。
 
-> 感谢 [buchenglei](https://github.com/buchenglei) 的贡献
+> ありがとう [buchenglei](https://github.com/buchenglei) 
 
-1. 构建镜像
+1. ボルド方法
     
     ```bash
     docker build -t daxigua-server .
     ```
 
-2. 启动容器
+2. サービスを実行させます
 
     ```bash
     docker run -d --name play-daxigua -p5000:5000 daxigua-server
@@ -75,91 +75,95 @@
 
 ### 一瞬で終わらせる
 
-> 按照下列说明修改即可，持续补充
+> 以下の指示に従って修正し、追加を続けるだけです。
 
-1. 改分数：改 extraSettings.js 文件
+1. スコアを変更する：extraSettings.jsファイルを変更する
 
-2. 改图片：替换 res/raw-assets 目录下指定目录的图片，必须同文件名、后缀、尺寸，成功覆盖可生效，[可替换素材文档](https://docs.qq.com/sheet/DS0d2VVVJYmpvZ0pZ)
+2.画像を変更する：画像の指定されたディレクトリのres/raw-assetsディレクトリを置き換えるには、同じファイル名、接尾辞、サイズ、成功したオーバーライドを有効にすることができます、[材料文書を置き換えることができます](https://docs.qq.com/sheet/DS0d2VVVJYmpvZ0pZ)
 
-3. 无敌模式：改 extraSettings.js 文件
+3.無敵モード：extraSettings.jsファイルを変更する
 
-4. 指定第一个水果：改 extraSettings.js 文件
+4.最初のフルーツを指定する：extraSettings.jsファイルを変更する
 
-5. 指定下次出现的水果：改 extraSettings.js 文件
+5. 次のフルーツを指定する: extraSettings.jsファイルを変更する
 
-6. 大水果合成小水果：改 extraSettings.js 文件
+6.大きな果実を小さな果実に：extraSettings.jsファイルを変更する
 
-7. 让水果更 Q 弹：改 extraSettings.js 文件，[原理参考](https://docs.cocos.com/creator/api/zh/classes/PhysicsCircleCollider.html?h=circlecollider)
+7.果実をよりQチップにする：extraSettings.jsファイルを変更し、[schema reference](https://docs.cocos.com/creator/api/zh/classes/PhysicsCircleCollider.html?h=circlecollider) )
 
-8. 水果下落速度减缓：改 extraSettings.js 文件，[原理参考](https://docs.cocos.com/creator/manual/zh/physics/physics/rigid-body.html?h=%E5%88%9A%E4%BD%93)
+8. 果物の落下を遅らせる: extraSettings.jsファイルの変更、[schema reference](https://docs.cocos.com/creator/manual/zh/physics/physics/rigid-body.html?h=%E5%88%9A%E4%) BD%93)
 
-9. 替换音乐：，覆盖 res/raw-assets 目录下相同的音乐，[可替换素材文档](https://docs.qq.com/sheet/DS0d2VVVJYmpvZ0pZ)
+9. 音楽を置き換える: res/raw-assetsディレクトリ内の同じ音楽を上書きする、[置換可能な素材ファイル](https://docs.qq.com/sheet/DS0d2VVVJYmpvZ0pZ)
 
-10. 替换背景：和改图片原理相同，[可替换素材文档](https://docs.qq.com/sheet/DS0d2VVVJYmpvZ0pZ)
+10.背景を置き換える:イメージの原則を変更することは同じですが、[材料文書を置き換えることができます](https://docs.qq.com/sheet/DS0d2VVVJYmpvZ0pZ)
 
-11. 去广告：将广告图片替换为[同背景色底图](https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/0.png)
+11.広告を削除：広告画像を[同じ背景色の背景画像]に置き換える(https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/0.png)
 
-12. 替换广告链接：改 extraSettings.js 文件
+12. 広告リンクを置き換える: extraSettings.jsファイルを変更する
 
-13. 改网站标题：改 extraSettings.js 文件
+13. サイトタイトルの変更: extraSettings.jsファイルの変更
 
-14. 开启选分弹窗：改 extraSettings.js 文件
+14. select pointsポップアップを開く: extraSettings.jsファイルを変更します。
 
-15. 点击右上方图标更换水果: 改 extraSettings.js 文件
+15.右上のアイコンをクリックしてフルーツを変更する：変更 extraSettings.js
+
+www.DeepL.com/Translator（無料版）で翻訳しました。
 
 
-### 上线发布
+### オンラインリリース
 
 > 提供了多种上线发布方式，腾讯云一键部署、Vercel、腾讯云静态网站托管、GitHub Pages 等，小白建议使用 Vercel。
 
-#### 腾讯云一键部署
+>オンライン公開の方法は、Tencent Cloud ワンクリックデプロイ、Vercel、Tencent Cloud 静的ウェブホスティング、GitHub Pagesなどがあり、白人の方にはVercelがお勧めです。
 
-适用于会 fork 仓库、提交代码的同学。
+#### テンセントクラウドワンクリック展開
 
-点击下方按钮，无需任何操作，即可部署我的仓库到腾讯云 ⬇️
+リポジトリをフォークしてコードを投稿できる学生向け
 
-> 如果要替换为一键部署自己的仓库，要先 fork 我的仓库，本地修改后再提交到自己 fork 的仓库，最后把一键部署按钮仓库地址改为自己的仓库即可！
+下のボタンをクリックすると、何もせずに私のリポジトリをTencent Cloudにデプロイすることができます ⬇️。
 
-[![](https://main.qcloudimg.com/raw/67f5a389f1ac6f3b4d04c7256438e44f.svg)](https://console.cloud.tencent.com/tcb/env/index?action=CreateAndDeployCloudBaseProject&appUrl=https://github.com/liyupi/daxigua&branch=master)
+> 自分のリポジトリをワンクリックでデプロイしたい場合は、まず自分のリポジトリをフォークして、ローカルで修正してからフォークリポジトリに投稿し、最後にワンクリックでデプロイボタンのリポジトリアドレスを自分のリポジトリに変更する必要があります!
 
 
-#### Vercel
+#### ヴェルセル
 
-适用于零基础的小白。操作简单、域名简短，但国外的服务器，比较慢。
+運用が簡単でドメインも短いが、海外サーバーなため遅い
 
-Vercel 是免费网站托管平台，可以帮我们部署网站，并生成可访问的简短网址，还能够和自己购买的域名进行绑定。
+Vercelは無料のウェブホスティングプラットフォームで、ウェブサイトの展開やアクセス可能な短いURLの生成、購入したドメインへのバインド機能を提供してくれます。
 
-先在命令行通过 npm 命令安装 Vercel：
+コマンドラインから npm コマンドで Vercel をインストールします。
 
 ```
 npm install -g vercel
 ```
 
-安装完成后，进入 `index.html` 所在目录（我的是 daxigua），使用 `vercel` 命令发布网站：
+インストールしたら、`index.html`ディレクトリ(私のはdaxigua)に移動し、`vercel`コマンドを使ってサイトを公開する。
 
 ```
 cd daxigua
 vercel --prod
 ```
 
-然后会让你输入一些选项，比如项目名称、是否和已有项目关联、是否保存当前配置等。如果要创建多个项目，千万不要和已有项目关联！
+次に、プロジェクト名、既存のプロジェクトと関連付けるかどうか、現在の設定を保存するかどうかなど、いくつかのオプションを入力するように求められます。 複数のプロジェクトを作成する場合は、既存のプロジェクトと関連付けないようにしましょう
 
-发布成功，会得到一个网址，打开就可以看到游戏啦，还可以把网址分享给别人！
+無事に公開すると、URLが出てきて、それを開いてゲームを見ることができ、URLを共有することができます。
+
+
 
 #### 腾讯云静态网站托管
 
-国内服务器，访问速度更快，且链接未被微信封杀。
+中国サーバーです。リンクもmicrosoftにブロックされない。
 
-地址：https://cloud.tencent.com/product/wh
+住所： https://cloud.tencent.com/product/wh
 
-可以参照这篇文章的内容尝试发布，[魔改和上线你的合成大西瓜，最全教程！](https://mp.weixin.qq.com/s/H9VR1MWn-9bKSC_1l_MkJw)
+この記事を参考にして掲載してみてください[マジックチェンジとオンラインであなたの合成大スイカ、完全版チュートリアル！](https://mp.weixin.qq.com/s/H9VR1MWn-9bKSC_1l_MkJw)
+
 
 
 ### 魔改原理
+最初にお読みください：[魔法改造で合成大スイカをオンラインにする！チュートリアル完全版](https://mp.weixin.qq.com/s/H9VR1MWn-9bKSC_1l_MkJw)
 
-请先阅读：[魔改和上线你的合成大西瓜，最全教程！](https://mp.weixin.qq.com/s/H9VR1MWn-9bKSC_1l_MkJw)
-
-我给 `project.js` 文件补充了注释，大家可以搜索关键字，如 "改分" 来快速定位，学习修改原理。
+project.js`ファイルにコメントを追加したので、「チェンジスコア」などのキーワードで検索するとすぐに見つけられ、修正の原理を学ぶことができます。
 
 ### 问题及解决
 
