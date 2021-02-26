@@ -1,55 +1,55 @@
-# 合成大西瓜
+# 合成大西瓜(スイカゲーム)
 
-**声明，本项目仅帮助大家学习技术及娱乐，切勿将修改后的网站大规模传播及商用，以避免侵权！**
+**このプロジェクトはテクノロジーとエンターテインメントの学習にのみ役立つことを宣言します。侵害を避けるために、変更されたWebサイトを大規模に広めたり商品化したりしないでください！**
 
-> 最简单的魔改发布『 合成大西瓜 』，配套改图工具，不用改代码，修改配置即可！
+> 最も単純なアプリのリリースは『 合成大西瓜 』，ダイアグラム変更ツールをサポートし、コードを変更する必要はありません。構成を変更するだけです。
 >
-> 有帮助的话，求个大大的 star，有疑问请联系微信：liyupi66
+> ご不明な点がございましたら、こちらまでお問い合わせください。：liyupi66
 > 
-> 作者编程技术公众号[『 程序员鱼皮 』](https://mp.weixin.qq.com/s/H9VR1MWn-9bKSC_1l_MkJw)，欢迎关注 ❤️
+> 著者プログラミング技術公開番号[『 程序员鱼皮 』](https://mp.weixin.qq.com/s/H9VR1MWn-9bKSC_1l_MkJw)，ファローぜひ ❤️
 >
-> 遇到问题可以先阅读本文档最后[ 问题及解决 ](#问题及解决)
+> 問題が発生した場合は、最初にこのドキュメントを読んでください[ 问题及解决 ](#问题及解决)
 
-详细教程：[魔改和上线你的合成大西瓜，最全教程！](https://mp.weixin.qq.com/s/H9VR1MWn-9bKSC_1l_MkJw)
+細かい説明の入ったチュートリアル：[魔改和上线你的合成大西瓜，最全教程！](https://mp.weixin.qq.com/s/H9VR1MWn-9bKSC_1l_MkJw)
 
-视频教程：[全网最贴心的魔改合成大西瓜教程，从修改到发布！](https://www.bilibili.com/video/BV1Vy4y1n7KW/)
+動画のチュートリアル：[全网最贴心的魔改合成大西瓜教程，从修改到发布！](https://www.bilibili.com/video/BV1Vy4y1n7KW/)
 
-未修改版在线玩：[https://daxigua.liyupi.com](https://daxigua.liyupi.com)
+オンラインで再生するための変更されていないバージョン：[https://daxigua.liyupi.com](https://daxigua.liyupi.com)
 
-魔改版在线玩：[https://dadaxigua.liyupi.com](https://dadaxigua.liyupi.com)
+オンラインでプレイするためのバージョン：[https://dadaxigua.liyupi.com](https://dadaxigua.liyupi.com)
 
-未修改版源码：[https://github.com/liyupi/daxigua/releases/tag/1.0.0](https://github.com/liyupi/daxigua/releases/tag/1.0.0)
+変更されていないソースコード：[https://github.com/liyupi/daxigua/releases/tag/1.0.0](https://github.com/liyupi/daxigua/releases/tag/1.0.0)
 
 🔥 [新上线大西瓜改图工具，改图效率翻倍！](https://daxigua-tools.liyupi.com)
 
 ![秀爆朋友圈](./assets/dadaxigua.png)
 
-### 目录
+### 目次
 
-- [本地启动](#本地启动)
+- [ローカルで開始](#ローカルで開始)
 
-- [快速魔改](#快速魔改)
+- [一瞬で終わらせる](#一瞬で終わらせる)
 
-- [上线发布](#上线发布)
+- [オンラインリリース](#オンラインリリース)
 
 - [魔改原理](#魔改原理)
 
-- [问题及解决](#问题及解决)
+- [問題と解決策](#問題と解決策)
 
 
-### 本地启动
+### ローカルで開始
 
-> 提供两种本地启动方式，serve 和 Docker，小白建议使用第一种。
+> 2つのローカル起動方法があります。serveとDockerが提供されています。Xiaobaiは最初の方法をお勧めします。
 
-#### 小白适用
+#### 初心者用
 
-1. 安装 serve 工具：
+1. serveをインストール：
 
     ```bash
     npm i -g serve
     ```
 
-2. 进入 daxigua 目录，运行 serve：
+2. daxiguaディレクトリに入り、serveを実行：
 
     ```bash
     serve
@@ -73,7 +73,7 @@
     docker run -d --name play-daxigua -p5000:5000 daxigua-server
     ```
 
-### 快速魔改
+### 一瞬で終わらせる
 
 > 按照下列说明修改即可，持续补充
 
